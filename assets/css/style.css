@@ -25,3 +25,31 @@ header ul li a{
     font-size: 16px;
     line-height: 24px;
 }
+
+/*  section one*/
+.info_text{
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    color: white;
+    margin: auto;
+    gap: 8px;
+
+}
+.info_text h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.info_text p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
